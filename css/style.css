@@ -1,0 +1,24 @@
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.first-class{
+   background-color: grey;
+    padding-left: 50px;
+    padding-right: 50px; 
+}
+
+.heading{
+    font-size: 50px;
+    color: black;
+}
+
+.sub-heading{
+    font-style: italic;
+    font-size: 30px;
+}
+
+.second-class{
+   width: 50%;
+}
