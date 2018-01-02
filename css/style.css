@@ -1,24 +1,72 @@
-.wrapper{
-    margin: 0 auto;
-    width: 80%;
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 25px;
 }
 
-.first-class{
-   background-color: grey;
-    padding-left: 50px;
-    padding-right: 50px; 
+.first-section{
+    padding: 25px;
+    height: 20vh;
+   background:rgb(34, 151, 218);
 }
 
-.heading{
-    font-size: 50px;
-    color: black;
+.myname{
+    color :black;
+    font-size: 40px;
 }
-
-.sub-heading{
+.tagline{
+    font-style:bold;
+    font-size:20px;
+    color:whitesmoke;
+}
+.second-section{padding: 25px;}
+.tag1{
+    color:rgb(34, 151, 218);
+    font-style: bold;
+}
+.aboutme{
     font-style: italic;
+    font-size :18px;
+}
+.third-section{
+    padding: 25px;
+    background:rgb(34, 151, 218);
+}
+.education{
+    color: whitesmoke;
+    font-size: 20px
+}
+.fourth-section{
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.setcolor{
+    color :rgb(34, 151, 218);
+    font-style:bold;
     font-size: 30px;
 }
 
-.second-class{
-   width: 50%;
+.image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.span{
+    color: black;
+}
+
+.fifth-section{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 151, 218);
+    padding: 30px;
+
+}
+
+.contact{
+    margin-left: 40px;
+}
+
+.fourth-section>span{
+    margin-right: 10px;
 }
